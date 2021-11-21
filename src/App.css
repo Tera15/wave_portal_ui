@@ -1,0 +1,66 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 50vw;
+  max-height: 75vh;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: rgba(255,0,183,1);
+}
+
+.bio, div {
+  text-align: center;
+  margin-top: 16px;
+  color: gray;
+}
+
+button {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  font-weight: bold;
+  background: rgb(203,0,255);
+  background: linear-gradient(90deg, rgba(203,0,255,1) 0%, rgba(255,0,183,1) 100%);   
+}
+
+label {
+    margin: 1rem 1rem 0.5rem 1rem;
+    text-align: center;
+    color: rgba(255,0,183,1);
+}
+
+input {
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid rgb(203,0,255);
+    border-radius: 5rem;
+    padding: 0.5rem;
+}
+
+.toast {
+    position: absolute;
+    top: 0;
+    margin-top: 16px;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: black;
+    background: rgb(203,0,255);
+    background: linear-gradient(90deg, rgba(203,0,255,1) 0%, rgba(255,0,183,1) 100%);
+    
+}
+
